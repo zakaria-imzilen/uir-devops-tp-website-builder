@@ -1,0 +1,15 @@
+# CODEOWNERS
+#
+# Lines are file patterns followed by one or more owners.
+# Owners can be GitHub usernames or teams (e.g. @org/team).
+# The last matching pattern takes the most precedence.
+
+# Repository: uir-devops-tp-website-builder
+# Owner: @zakaria-imzilen (zakariyaimzilen@gmail.com)
+
+# Default owner for everything
+* @zakaria-imzilen
+
+# Explicit patterns (optional but kept for clarity)
+.github/** @zakaria-imzilen
+Jenkinsfile @zakaria-imzilen
