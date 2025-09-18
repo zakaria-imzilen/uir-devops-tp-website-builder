@@ -1,0 +1,21 @@
+# terraform.tfvars.example - Copy to terraform.tfvars and customize
+
+# GCP Configuration
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+
+# Application Configuration
+app_name = "myapp"
+
+# Network Configuration
+allowed_ssh_ip = "YOUR.IP.ADDRESS.HERE/32"  # Replace with your IP
+
+# Cloud Run Configuration
+min_instances = 0
+max_instances = 10
+cpu_limit     = "1"
+memory_limit  = "512Mi"
+
+# Supabase Configuration (optional - can be set later)
+# supabase_url = "https://your-project.supabase.co"
+# supabase_key = "your-supabase-anon-key"

@@ -1,0 +1,19 @@
+# Production Environment Variables
+# Copy this to terraform.tfvars and customize
+
+project_id = "your-prod-project-id"
+region     = "us-central1"
+app_name   = "myapp"
+
+# Your IP for SSH access (get from: curl ifconfig.me)
+allowed_ssh_ip = "0.0.0.0/32"  # REPLACE WITH YOUR ACTUAL IP
+
+# Cloud Run settings
+min_instances = 1    # Prod should have at least 1 instance
+max_instances = 20
+cpu_limit     = "2"
+memory_limit  = "1Gi"
+
+# Supabase settings (fill these in)
+# supabase_url = "https://your-prod-project.supabase.co"
+# supabase_key = "your-prod-supabase-anon-key"
